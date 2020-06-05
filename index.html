@@ -126,35 +126,87 @@
                 <div class="row">
                   <div class="col">
                     <div class="list-group" id="list-tab" role="tablist">
-                      <div class="dropdown mx-0">
-                        <div class="btn-group col-12">
-                          <div class="list-group-item mx-0 px-0 border-0 col-11"> HOME</div>
-                          <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split col"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item " href="#">Demo Medical Marijuana</a>
-                            <a class="dropdown-item" href="#">Demo Fashion Minimalism</a>
-                            <a class="dropdown-item" href="#">Demo Drinks</a>
-                            <a class="dropdown-item" href="#">Demo Bakery</a>
-                            <a class="dropdown-item" href="#">...</a>
+                      <div class="accordion" id="manu-home">
+                        <div class="card">
+                            <div class="mb-0 d-flex justify-content-around">
+                              <a class="list-group-item list-group-item-action d-inline">HOME</a>
+                              <button class=" green btn  d-inline text-left"  data-toggle="collapse" data-target="#collapseOne">
+                                <i class="fas fa-angle-down"></i>
+                              </button>
+                            </div>
+
+                      
+                          <div id="collapseOne" class="collapse"  data-parent="#manu-home">
+                            <div class="card-body">
+                              <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action d-inline">Demo Medical Marijuana</a>
+                                <a class="list-group-item list-group-item-action d-inline">Demo Fashion Minimalism</a>
+                                <a class="list-group-item list-group-item-action d-inline">Demo Drinks</a>
+                                <a class="list-group-item list-group-item-action d-inline">Demo Bakery</a>
+                                <a class="list-group-item list-group-item-action d-inline">Demo Bakery</a>
+                                <a class="list-group-item list-group-item-action d-inline">...</a>
+                              </div>
+                    
+                    
+                              
+                            </div>
                           </div>
                         </div>
+                    
                       </div>
+
+                      
                       <a class="list-group-item list-group-item-action">SHOP</a>
                       <a class="list-group-item list-group-item-action">BLOG</a>
                       <a class="list-group-item list-group-item-action">PORTFOLIO</a>
-                      <div class="dropdown mx-0 ">
-                        <div class="btn-group col-12">
-                          <div class="list-group-item mx-0 px-0 border-0 col-11"> PAGES</div>
-                          <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item " href="#">Pre-Built Pages</a>
-                            <a class="dropdown-item" href="#">Pre-Built Layouts</a>
-                            <a class="dropdown-item" href="#">...</a>
+                      <div class="accordion" id="manu-page">
+                        <div class="card">
+                            <div class="mb-0 d-flex justify-content-around">
+                              <a class="list-group-item list-group-item-action d-inline">PAGES</a>
+                              <button class="green btn  d-inline text-left"  data-toggle="collapse" data-target="#collapsetw0">
+                                <i class="fas fa-angle-down"></i>
+                              </button>
+                            </div>
+                    
+                      
+                          <div id="collapsetw0" class="collapse"  data-parent="#manu-page">
+                            <div class="card-body m-0 p-0">
+                    
+                                <div class="accordion m-0 p-0" id="manu-prepage">
+                                  <div class="card">
+                                      <div class="mb-0 d-flex justify-content-around">
+                                        <a class="list-group-item list-group-item-action d-inline">Pre-build Pages</a>
+                                        <button class=" green btn  d-inline text-left"  data-toggle="collapse" data-target="#collapseTwo1">
+                                          <i class="fas fa-angle-down"></i>
+                                        </button>
+                                      </div>
+                              
+                                
+                                    <div id="collapseTwo1" class="collapse"  data-parent="#manu-prepage">
+                                      <div class="card-body m-0 p-0">
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                          <a class="list-group-item list-group-item-action d-inline">Contact Us</a>
+                                          <a class="list-group-item list-group-item-action d-inline">Contact Us 2</a>
+                                          <a class="list-group-item list-group-item-action d-inline">Contact Us 2</a> 
+                                          <a class="list-group-item list-group-item-action d-inline">...</a>          
+                    
+                                        </div>
+                              
+                              
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+                              
+                                </div>
+                    
+                    
+                    
+                              
+                            </div>
                           </div>
                         </div>
+                    
                       </div>
                       <a class="list-group-item list-group-item-action"><i class="fa fa-heart-o"></i> WISHLIST</a>
                       <a class="list-group-item list-group-item-action"><i class="fa fa-random"></i> COMPARE</a>
