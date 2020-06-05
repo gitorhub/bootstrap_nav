@@ -110,7 +110,10 @@ font-size:2em;
 .browse-size div:hover{
   color: #83B735;
 }
-.green:hover{
+.green:hover, .green:active, .green:focus{
   background-color: #83B735;
-
+}
+.btn:focus, .btn:hover, .btn:active, .active, i{
+  outline: none;
+  box-shadow: none;
 }
