@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+}
+.bg-woy{
+  background: #83B735 !important;
+}
+.text-woy{
+  color:#83B735 !important;
+}
+.containers{
+width: 90%;
+margin: 0 auto;
+}
+body{
+  font-size: 0.80em;
+  font-family: 'Poppins', sans-serif;
+
+}
+.span-top{
+    height: 16px;
+    width: 16px;
+    background: #7fad39;
+    font-size: 10px;
+    color: #ffffff;
+    line-height: 13px;
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.zindex-2{
+  z-index:10 !important;
+}
+.s2-color{
+  width: 25px;
+  height: 25px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  cursor: pointer;
+}
+.h1{
+  font-size: 2.5rem;
+}
+.btn:focus{
+  outline:none;
+}
+.modal-size{
+  width: 250px;
+  height: 100%;
+  background-color: white;
+}
+.big-logo-size{
+  height: 61%;
+  padding: 0;
+  margin: 0;
+}
+.furniture-size{
+  position: absolute;
+  top:175px;
+  left:297px;
+  width: 800px
+  
+
+}
+.relatives{
+  position:relative;
+  top:0;
+  left: 0;
+
+}
+.browse-size{
+  width: 250px;
+}
+.furniture-item-size{
+width: 200px;
+padding: 0;
+cursor:pointer;
+font-size: 0.5em !important;
+}
+#furnitures .btn{
+font-size:2em;
+}
+#furnitures .btn:hover{
+  font-size:2em;
+  color: #83B735;
+  }
+.brands > div >img{
+  background-color:white;
+  opacity: 0.5;  
+}
+.brands > div >img:hover{
+  background-color:white;
+  opacity: 1;  
+}
+.home-size{
+  position: absolute;
+  top:175px;
+  width: 90%;
+
+}
+.home-size .card:hover{
+  opacity:0.5;
+  position: relative;
+  top: -5px;
+  cursor: pointer;
+
+}
+#sliders{
+  height: 450px;
+}
